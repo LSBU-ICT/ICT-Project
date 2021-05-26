@@ -91,7 +91,7 @@
 
 .logo{
 float: right;
-margin-top: -340px;
+margin-top: -320px;
 
 }
 .about .logo,
@@ -157,7 +157,7 @@ header {
  .vertical {
 	 		margin-right: 5px;
             border-left: 5px solid #ff4000;
-            height: 105px;
+            height: 60px;
 			
         }
 hr {
@@ -170,7 +170,6 @@ hr {
 	/* margin-top: 100px;
 	margin-bottom:100px; */
 }
-
 
 /*=================================Main Layout============================================*/
 /* Website title / Login form title / Signup form title */
@@ -201,12 +200,13 @@ h2 {
 
 /* Footer titles - applies in all the pages */
 h3 {
-	font-size:18px;
+	font-size:20px;
 	color:rgb(233, 230, 230);
 	font-family: serif;
 	font-style: italic;
 	line-height:1.5em;
 	padding-left: 7px;
+	margin-top: 65px;
 	/* padding:14px 0 13px 3px; */
 	/* letter-spacing:-1px; */
 }
@@ -252,8 +252,22 @@ h6{
 ol, ul {
 	list-style:none;
 }
+.welcome{
+
+	font-size: 36px;
+	font-family:Luminari;
+	font-weight: bold;
+	line-height: 1.6;
+	text-align: center;
+	margin-top: 25px;
+
+}
 p {
 	padding-bottom:10px;
+	font-family: 'Times New Roman', Times, serif;
+	line-height: 1.6;
+
+
 }
 .adr .container2 p{
 
@@ -440,6 +454,30 @@ figtittle {
 	
 }
 
+/*home page / programs page/ */
+.list3 {
+	margin-top:12px;
+	padding-left: 0;
+	
+}
+.list3 li {
+	line-height:28px;
+	
+}
+/* Frequently used letters  */
+.list3 li a {
+	display:inline-block;
+	background:url(img/bullet3.png) 0 3px no-repeat;
+	padding-left:48px;
+	font-weight:bold;
+	text-decoration:none;
+}
+/* Frequently used letters mouse over */
+.list3 li a:hover {
+	background:url(img/bullet3.png) 0 2px no-repeat;
+	color:#0055a2;
+}
+
 /* .wrapper ul li:before {
 	content: "\00BB";
 } */
@@ -481,7 +519,20 @@ footer a {
 
 }
 .column2 {
-	width:300px;
+	padding-top: 0;
+	width:290px;
+	float:left;
+}
+.column4 {
+	padding-top: 0;
+	margin-top: -107px;
+	width:290px;
+	float:left;
+}
+.column3 {
+	padding-top: 0;
+	width:290px;
+	margin-left: -20px;
 	float:left;
 }
 
