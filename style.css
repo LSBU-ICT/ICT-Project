@@ -22,8 +22,6 @@
 	  min-width:1024px;	
 	  background-color: #f2f2f2;
   }
-
-
   /*=================================Global Structure=======================================*/
   .main {
 	  margin:0 auto;
@@ -31,8 +29,7 @@
 	
   }
 .container1{		
-	 background:url(img/bg_top4.png) top repeat-x;	
-	
+	 background:url(img/bg_top4.png) top repeat-x;		
 }
 /*=================================Navigation=================================================*/
 
@@ -73,8 +70,6 @@
 	color:#ff4000;
 	text-shadow: -0.3px 0.3px 0.3px #ff3c00;
 }
-
-
 .icon {
 	float:right;
 	padding:6px 40px 0 0;
@@ -101,7 +96,7 @@ margin-top: -320px;
 	float: right;
 	margin-top: -200px; 
 	
-	}
+}
 
 /* removes the bulletpoints from the lists  */
 ol, ul {
@@ -127,9 +122,7 @@ h2{
 header {
 	width: 1024px;
 	overflow:hidden;
-	height: 300px;
-	/* background:url(img/banner.png) bottom repeat-x; */
-	
+	height: 300px;	
 }
 
 .about header,
@@ -146,15 +139,8 @@ header {
 	padding-left: 5px;
 	margin-bottom: 5px;
 } 
-/* .slogan {
-	font-size:56px;
-	font:14px Times_New_Roman;
-	font-style: italic;
-	color:#d1d1d1;
-	line-height:1.5em;
-	letter-spacing:-1px;
-} */
- .vertical {
+
+.vertical {
 	 		margin-right: 5px;
             border-left: 5px solid #ff4000;
             height: 60px;
@@ -167,12 +153,9 @@ hr {
 	margin-right: auto;
 	background-color:#ff4000;
 	border: 0 none;
-	/* margin-top: 100px;
-	margin-bottom:100px; */
 }
 
 /*=================================Main Layout============================================*/
-/* Website title / Login form title / Signup form title */
 h1{
 	font-size:42px;
 	color: #ffffff;
@@ -186,15 +169,12 @@ h2 {
 	font-size:35px;
 	color:#f8f5f5;
 	padding:21px 0 10px 0;
-
-	/* letter-spacing:-1px; */
-
 }
+
 .about h2,
 .adr h2,
 .faq h2,
 .complaint h2{
-
 	font-size: 30px;
 }
 
@@ -207,8 +187,6 @@ h3 {
 	line-height:1.5em;
 	padding-left: 7px;
 	margin-top: 65px;
-	/* padding:14px 0 13px 3px; */
-	/* letter-spacing:-1px; */
 }
 
 /* title - enrollment form - enroll_page */
@@ -226,7 +204,6 @@ h5 {
 	color:#000;
 	line-height:1.2em;
 	padding:14px 0 13px 3px;
-	
 }
 
 .adr h5{
@@ -290,9 +267,7 @@ a:hover, a:focus{
 	padding-top:10px 0 30px 0;
 }
 article{
-	float:left;
-	/* margin: 15px 15px 15px 15px;
-	align-items: center; */
+	float:left;	
 }
 
 figure{
@@ -305,8 +280,7 @@ figcaption {
 	font-size:23px;
 	line-height:1.2em;
 	color:#000;
-	padding-top:7px;
-	
+	padding-top:7px;	
 }
 .complaint figcaption{
 
@@ -318,43 +292,6 @@ figcaption {
 	padding-top:7px;
 	letter-spacing:-1px;
 }
-/* .column2 {
-	width:300px;
-	float:left;
-	
-
-} */
-/* figure {
-	float:left;	
-	padding: 2px;
-	
-}
-
-figtittle {
-	float: right;
-	text-align: left;  
-	display:block;
-	font-size:16px;
-	line-height:1.2em;
-	color:#000;
-	padding-top:7px;
-	letter-spacing:-1px;
-}
-.figsubtitle {
-	float: left;
-	text-align: left;
-
-} */
-
-/* .columna {
-	width: 420px;
-	float: left;
-}
-
-.columnb {
-	float: right;
-	width: 420px;
-} */
 
 .box {
 	padding:0 34px;
@@ -373,15 +310,6 @@ figtittle {
 .padd_top_2 {
 	padding-top:7px
 }
-/* column1 and column2 used in content section - container2
-.column1 {
-	width:600px;
-	margin-right:5px;
-	float:left;
-	padding-left: 5px;
-
-
-} */
 
 .margin_right {
 	margin-right:21px;
@@ -450,8 +378,7 @@ figtittle {
 /* Frequently asked questions mouse over */
 
 .list2 li a:hover {
-	color:#0055a2;
-	
+	color:#0055a2;	
 }
 
 /*home page / programs page/ */
@@ -478,10 +405,6 @@ figtittle {
 	color:#0055a2;
 }
 
-/* .wrapper ul li:before {
-	content: "\00BB";
-} */
-
 /*Home page - news section*/
 .date {
 	float:left;
@@ -500,10 +423,9 @@ footer {
 	overflow:hidden;
 	padding-bottom:42px;
 	line-height:20px;
-	margin-bottom:-15px;
-
-   
+	margin-bottom:-15px;   
 }
+
 footer a {
 	color:#0055a2;
 }
@@ -515,9 +437,8 @@ footer a {
 	margin-right:45px;
 	float:left;
 	padding-left: 5px;
-
-
 }
+
 .column2 {
 	padding-top: 0;
 	width:290px;
@@ -535,7 +456,6 @@ footer a {
 	margin-left: -20px;
 	float:left;
 }
-
 
 .column_address{
 	width:85px;
@@ -575,9 +495,7 @@ footer a {
 .list_footer li a {
 	color:#4c4c4c;
 	text-decoration:none;
-	padding-left:18px;
-	
-	
+	padding-left:18px;	
 }
 .list_footer li a:hover {
 	color:#0055a2;
@@ -596,7 +514,6 @@ footer ul li:before {
 	padding:3px 5px 5px 5px;
 	line-height:18px;
 	height:32px;	
-
 }
 #newsletter .background {
 	background:#fff;
@@ -629,7 +546,6 @@ footer ul li:before {
    -moz-box-shadow:  inset 1px 1px 10px #333;
    box-shadow: inset 1px 1px 10px #ffffff;
 }
-
 .call {
 	float:left;
 	width:602px;
@@ -641,8 +557,7 @@ footer ul li:before {
 	color:#000;
 	line-height:1.2em;
 	display:inline-block;
-	letter-spacing:-1px;
-	
+	letter-spacing:-1px;	
 }
 .call2 {
 	font-size:22px;
@@ -653,8 +568,6 @@ footer ul li:before {
 }
 
 /* complaint page ********************/
-
-
 #myImg {
 	border-radius: 5px;
 	cursor: pointer;
@@ -667,111 +580,3 @@ footer ul li:before {
 	  margin: 5px;
   }
   
-  /* The Modal (background) */
-  /* .modal {
-	display: none; /* Hidden by default */
-	/* position: fixed; Stay in place */
-	/* z-index: 1; Sit on top */
-	/* padding-top: 100px; Location of the box */
-	/* left: 0; */
-	/* top: 0; */
-	/* width: 100%; Full width */
-	/* height: 100%; Full height */
-	/* overflow: auto; Enable scroll if needed */
-	/* background-color: rgb(0,0,0); Fallback color */
-	/* background-color: rgba(0,0,0,0.9); Black w/ opacity */
-  /* }  */
-   
-  /* Modal Content (image) */
-  /* .modal-content {
-	margin: auto;
-	display: block;
-	width: 80%;
-	max-width: 700px;
-  } */
-  
-  /* Caption of Modal Image */
-  /* #caption {
-	margin: auto;
-	display: block;
-	width: 80%;
-	max-width: 700px;
-	text-align: center;
-	color: #ccc;
-	padding: 10px 0;
-	height: 150px;
-  } */
-  
-  /* Add Animation */
-  /* .modal-content, #caption {  
-	-webkit-animation-name: zoom;
-	-webkit-animation-duration: 0.6s;
-	animation-name: zoom;
-	animation-duration: 0.6s;
-  }
-  
-  @-webkit-keyframes zoom {
-	from {-webkit-transform:scale(0)} 
-	to {-webkit-transform:scale(1)}
-  }
-  
-  @keyframes zoom {
-	from {transform:scale(0)} 
-	to {transform:scale(1)}
-  }
-   */
-  /* The Close Button */
-  /* .close {
-	position: absolute;
-	top: 15px;
-	right: 35px;
-	color: #f1f1f1;
-	font-size: 40px;
-	font-weight: bold;
-	transition: 0.3s;
-  }
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-/* @media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-} */
-
-/* .middle {
-	transition: .5s ease;
-	opacity: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
-  }
-  
-  .figcontainer{
-	position: relative; 
-	width: 100%;
-  }
-  
-
-  .figcontainer:hover .image {
-	opacity: 0.3;
-  }
-  
-  .figcontainer:hover .middle {
-	opacity: 1;
-  }
-.text {
-	background-color: #094f88; 
-	color: rgb(255, 255, 255);
-	font-size: 12px;
-	font-weight: bold;
-	padding: 4px;
-  } */
